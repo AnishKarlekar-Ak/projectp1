@@ -3,9 +3,7 @@ import pandas as pd
 import numpy as np
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.preprocessing import LabelEncoder
-import joblib
 import plotly.express as px
-import plotly.graph_objects as go
 from datetime import datetime, timedelta
 import warnings
 warnings.filterwarnings('ignore')
@@ -279,7 +277,8 @@ def main():
     st.markdown(
         """
         <div style="text-align: center; color: #666; margin-top: 2rem;">
-            <p>Made By AK• Built with Streamlit • Timelytics v1.0</p>
+            <p>🚀 Powered by AI • Built with Streamlit • Timelytics v1.0</p>
+            <p>📧 Need help? Contact support@timelytics.com</p>
         </div>
         """, 
         unsafe_allow_html=True
